@@ -1,3 +1,81 @@
+# This Website is Live 
+https://secret-post-4u.netlify.app/
+
+# Backend
+https://github.com/shakti9820/Post-Backend
+
+
+
+# Backend Setup Guide
+
+This guide will walk you through the steps to set up and run the backend of this project. Ensure that you have Node.js and npm (Node Package Manager) installed on your system.
+
+```bash
+# Clone the repository, navigate to the project directory, and install dependencies
+git clone https://github.com/your-username/your-backend-repo.git
+cd your-backend-repo
+npm install
+
+# Start the Node.js server
+node index.js
+
+This guide will walk you through the steps to set up environment variables for the backend of this project. These variables are essential for configuring your Nodejs server.
+
+## Setting Up Environment Variables
+
+Create a `.env` file in the root directory of your frontend project. Open the file and add the following environment variables:
+
+```dotenv
+# .env
+
+# Set the MongoDB URI (replace with your MongoDB Atlas or Compass connection string)
+MONGO_URI=mongodb+srv://your-username:your-password@cluster0.mongodb.net/your-database
+
+# Set your JWT secret key for authentication
+JWT_SECRET=your_secret_key
+
+
+
+
+
+# Frontend Setup Guide
+
+This guide will walk you through the steps to set up and run the Frontend of this project. 
+
+
+```bash
+# Clone the frontend repository, navigate to the project directory, and install dependencies
+git clone https://github.com/your-username/your-frontend-repo.git
+cd your-frontend-repo
+npm install
+
+# Start the React development server
+npm start
+
+
+This guide will walk you through the steps to set up environment variables for the frontend of this project. These variables are essential for configuring your React application.
+
+## Setting Up Environment Variables
+
+Create a `.env` file in the root directory of your frontend project. Open the file and add the following environment variables:
+
+```dotenv
+# .env
+
+# Replace 'your_react_app_key' with your desired value
+REACT_APP_LOCALHOST_KEY=your_react_app_key
+
+# Set the base URL for API requests
+REACT_APP_BASE_URL=http://localhost:5000
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
